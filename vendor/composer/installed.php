@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+        'davidanderson684/simba-plugin-manager-updater' => array(
+            'pretty_version' => 'v1.8.10',
+            'version' => '1.8.10.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../davidanderson684/simba-plugin-manager-updater',
+            'aliases' => array(),
+            'reference' => 'a9c64f4caf3ecaa1660f90c7ff7a3080d459a019',
+            'dev_requirement' => false,
+        ),
+        'yahnis-elsts/plugin-update-checker' => array(
+            'pretty_version' => 'v4.10',
+            'version' => '4.10.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../yahnis-elsts/plugin-update-checker',
+            'aliases' => array(),
+            'reference' => '0edd15f67822464af8a23285ce367b30d515a855',
+            'dev_requirement' => false,
+        ),
+    ),
+);
